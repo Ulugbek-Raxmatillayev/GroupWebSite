@@ -17,7 +17,7 @@ body {
 
 .card {
   width: 350px;
-  background-color: #fefae0;
+  background: linear-gradient(191.95deg, #DEFFBC 4.39%, rgba(255, 241, 215, 0.95) 47.88%);
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   overflow: hidden;
@@ -244,5 +244,3 @@ button.add-to-cart {
   font-size: 16px;
   cursor: pointer;
 }
-
-/*# sourceMappingURL=main.css.map */
