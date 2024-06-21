@@ -1,0 +1,35 @@
+doctype html
+html
+  head
+    title Fruit Product Page
+    link(rel="stylesheet" href="../../css/main.css")
+  body
+    .container
+      .header
+        button.back
+          | ←
+        h1 Details
+        button.favourite
+          | ♥
+      .product-image
+        img(src="path/to/banana-image.png" alt="Bananas")
+      .product-info
+        h2 Fresh Banana
+        .rating
+          span ★★★★★
+        .quantity
+          button.decrease −
+          span 2kg
+          button.increase +
+        .description
+          p Banana is a very good fruit for body health and extra vitamin and extra energy for body. This is an increase of body for baby and boys.
+      .related-items
+        h3 Related Items
+        .items
+          img(src="path/to/orange.png" alt="Oranges")
+          img(src="path/to/cherry.png" alt="Cherries")
+          img(src="path/to/kiwi.png" alt="Kiwis")
+          img(src="path/to/melon.png" alt="Melons")
+      .price
+        span Price Rs 50/kg
+      button.add-to-cart Add to Cart
