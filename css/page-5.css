@@ -13,7 +13,6 @@ body {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   width: 320px;
   padding: 20px;
-  text-align: center;
   background: linear-gradient(to bottom, #d1ffd6, #fff7d1);
 }
 
@@ -98,4 +97,5 @@ button.add-to-cart {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
-}
+  box-shadow: 0px 2px 15px -9px rgba(0, 0, 0, 0.72);
+}/*# sourceMappingURL=page-5.css.map */
