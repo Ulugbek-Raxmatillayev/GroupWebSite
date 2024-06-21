@@ -1,0 +1,100 @@
+.cards-14-7 {
+    .cards {
+        width: 400px;
+        background-color: #fefae0;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        text-align: center;
+        padding: 20px 20px 0 20px;
+        font-family: Arial, sans-serif;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        gap: 60px;
+        justify-content: center;
+
+        button {
+            width: 54px;
+            height: 74px;
+            border-radius: 30px;
+            border: 2px solid white;
+            background-color: #E3FBC0;
+            box-shadow: 0px 3px 3px 0px #00000040;
+
+        }
+
+        h2 {
+            font-size: 28px;
+            font-family: Roboto, sans-serif;
+        }
+    }
+
+    main {
+        overflow-y: hidden;
+        height: 438px;
+        display: grid;
+        justify-content: center;
+
+        .cart {
+            display: flex;
+            align-items: center;
+            background-color: #FFFFFF4F;
+            gap: 34px;
+            padding-top: 20px;
+
+            h2 {
+                font-size: 23px;
+            }
+
+            .info {
+                display: grid;
+                gap: 3px;
+            }
+
+            .btntime {
+                background-color: white;
+                width: 50px;
+                border: 1px solid #EEE7E7;
+                height: 89px;
+                display: grid;
+            }
+        }
+        .cart:nth-child(2){
+            .btntime{
+                transform: translateX(-13.5px);
+            }
+        }
+        .cart:nth-child(3){
+            .btntime{
+                transform: translateX(-13.5px);
+            }
+        }
+        .cart:nth-child(4){
+            .btntime{
+                transform: translateX(-3.7px);
+            }
+        }
+    }
+
+    footer{
+        .pricesi{
+            display: flex;
+            font-size: 13.5px;
+            padding-top: 20px;
+            gap: 110px;
+            padding-bottom: 10px;
+            justify-content: center;
+        }
+        .thefoot{
+            background-color: #FCE92480;
+            width: 116%;
+            padding-top: 12px;
+            padding-bottom: 5px;
+            transform: translateX(-20px);
+            position: relative;
+        }
+    }
+}
