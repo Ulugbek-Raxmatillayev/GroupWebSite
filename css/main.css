@@ -140,9 +140,6 @@ body {
 
 aside img {
   max-width: 1600px;
-<<<<<<< HEAD
-}/*# sourceMappingURL=main.css.map */
-=======
 }
 
 body {
@@ -160,6 +157,7 @@ body {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   width: 320px;
   padding: 20px;
+  text-align: center;
   background: linear-gradient(to bottom, #d1ffd6, #fff7d1);
 }
 
@@ -209,9 +207,6 @@ body {
 .product-info .description {
   margin: 20px 0;
 }
-.product-info .description h3 {
-  margin: 0 0 10px 0;
-}
 .product-info .description p {
   font-size: 14px;
   color: #666;
@@ -235,10 +230,13 @@ body {
   font-size: 18px;
   font-weight: bold;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 button.add-to-cart {
-  background: #ffeb3b;
+  background: #fff;
+  color: #ffeb3b;
   border: none;
   border-radius: 30px;
   padding: 10px 20px;
@@ -247,4 +245,3 @@ button.add-to-cart {
 }
 
 /*# sourceMappingURL=main.css.map */
->>>>>>> 446cd51eca0659244c7aa822ad85ac7615ea5edd

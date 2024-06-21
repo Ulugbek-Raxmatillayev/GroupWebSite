@@ -105,11 +105,13 @@ body {
     font-size: 18px;
     font-weight: bold;
     display: flex;
-    
+    justify-content: space-between;
+    align-items: center;
   }
   
   button.add-to-cart {
-    background: #ffeb3b;
+    background: #fff;
+    color: #ffeb3b;
     border: none;
     border-radius: 30px;
     padding: 10px 20px;
