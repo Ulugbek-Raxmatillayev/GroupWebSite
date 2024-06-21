@@ -8,8 +8,9 @@ body {
 }
 
 .card {
-    width: 300px;
-    background-color: #fefae0;
+    width: 350px;
+    // background-color: #fefae0;
+    background: linear-gradient(191.95deg, #DEFFBC 4.39%, rgba(255, 241, 215, 0.95) 47.88%);
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -28,6 +29,7 @@ body {
         font-size: 14px;
         color: #777;
         margin: 0 0 20px;
+        font-size: 20px;
     }
     .divider {
         height: 2px;
