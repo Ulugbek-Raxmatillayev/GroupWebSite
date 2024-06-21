@@ -40,6 +40,8 @@ body {
   }
   
   .product-info {
+    // display: flex;
+    // justify-content: space-between;
     h2 {
       margin: 10px 0;
     }
@@ -102,6 +104,8 @@ body {
     margin: 20px 0;
     font-size: 18px;
     font-weight: bold;
+    display: flex;
+    
   }
   
   button.add-to-cart {
